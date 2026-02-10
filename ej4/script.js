@@ -17,12 +17,12 @@ button.addEventListener(`click`, () => {
 
 
 const inputFocus = body.querySelector(`input.focus`)
-inputFocus.addEventListener(`focus`,  () => {
+inputFocus.addEventListener(`focus`, () => {
    console.log(inputFocus.value);
 }) 
 
 
 const inputFocus2 = body.querySelector(`input.value`)
-inputFocus2.addEventListener(`input`,  () => {
+inputFocus2.addEventListener(`input`, () => {
    console.log(inputFocus2.value);
 }) 
